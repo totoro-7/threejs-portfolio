@@ -1,4 +1,6 @@
 import { words } from '../constants/index.js'
+import Button from '../components/Button.jsx'
+import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 
 const Hero = () => {
     return (
@@ -30,7 +32,22 @@ const Hero = () => {
                         <h1>into Real Projects</h1>
                         <h1>that Delivers Results</h1>
                     </div>
+                    <p className='text-white-50 md:text-xl relative z-10'>
+                        Hi, I'm Yin Yu, a developer based in Singapore with a passion for code.
+                    </p>
+                    <Button 
+                    className="min-w-fit px-6 py-3 md:w-80 md:h-16"
+                    id="button"
+                    text="See My Work"/>
                 </header>
+
+                {/*RIGHT: 3D MODELHeroExperience.jsx */}
+                <figure>
+                    <div className='hero-3d-layout'>
+                        <HeroExperience />
+                    </div>
+                </figure>
+
             </div>
         </div>
     )
