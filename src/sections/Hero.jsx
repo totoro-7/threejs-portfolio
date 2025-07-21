@@ -56,7 +56,7 @@ const Hero = () => {
                     <Button 
                     className="min-w-fit px-6 py-3 md:w-80 md:h-16"
                     id="button"
-                    text="See My Work"/>
+                    text="Learn more"/>
                 </header>
 
                 {/*RIGHT: 3D MODELHeroExperience.jsx */}

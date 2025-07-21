@@ -29,10 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 2026, suffix: "June", title: " Bachelor's Degree", label: "Nanyang Technological University - Information Engineering and Media" },
+  { value: 2025, suffix: "March", title: " Exchange Semester", label: "Technical University of Munich - Computation, Information and Technology" },
+  { value: 2022, suffix: "Feb", title: " Cambridge A levels", label: "Victoria Junior College - Physics, Chemistry, Math, Economics" },
 ];
 
 const logoIconsList = [
