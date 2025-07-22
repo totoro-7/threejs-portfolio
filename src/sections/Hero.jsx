@@ -31,7 +31,7 @@ const Hero = () => {
                 {/*LEFT: HERO CONTENT */}
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="hero-text">
-                        <h1>Shaping 
+                        <h1>Learning about
                             <span className="slide">
                                 <span className="wrapper">
                                 {words.map((word) => (                                
@@ -47,11 +47,12 @@ const Hero = () => {
                                 </span>
                             </span>
                             </h1>
-                        <h1>into Real Projects</h1>
-                        <h1>that Delivers Results</h1>
+                        <h1>Developing Real Projects</h1>
+                        <h1>One Cloud At A Time</h1>
                     </div>
-                    <p className='text-white-50 md:text-xl relative z-10'>
-                        Hi, I'm Yin Yu, a developer based in Singapore with a passion for code.
+                    <p className='text-white-50 mt-2 md:text-xl relative z-10'>
+                        Hi, I'm Yin Yu, a final-year student based in Singapore with a passion for code and learning.
+                        {/* <br />I have interest in AI/ML, web development, cloud technologies and design. */}
                     </p>
                     <Button 
                     className="min-w-fit px-6 py-3 md:w-80 md:h-16"
