@@ -15,7 +15,7 @@ const AnimatedCounter = () => {
                         <div key={counterItems.label} className="counter-number text-whte text-4xl font-bold mb-2">
                             {/* {item.value} {item.suffix} */}
                             {item.title}
-                            <div className='mt-5 text-blue-50 text-lg'> {item.suffix} <CountUp useGrouping={false} end={item.value} /> <br/></div>
+                            <div className='mt-5 text-blue-50 text-lg'> {item.suffix} <CountUp useGrouping={false} end={item.value} duration={2.5} /> <br/></div>
                             <div className='text-white-35 text-base'> {item.label} </div>
                         </div>
                     </div>
