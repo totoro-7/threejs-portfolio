@@ -113,31 +113,31 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python & AI/ML",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "JavaScript",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
+    name: "Figma Design",
+    modelPath: "/models/figma.glb",
+    scale: 2.5,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git & SCM",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -146,7 +146,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Technologies used: Tensorflow, Keras, Jenkins, Robot Framework, AWS, NAS, Bitbucket, Github, Python.",
+    review: "Technologies used: Tensorflow, Keras, Jenkins, Robot Framework, AWS, NAS, Bitbucket, Github, Bash, Python.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Software Engineer (Automation QA) Intern",
@@ -159,8 +159,8 @@ const expCards = [
   },
   {
     review: "Technologies used: DBeaver, PTC ThingWorx, Figma, Jira, OutSystems, PostgreSQL, Python, JavaScript, Excel",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: "/images/HMGICS.jpg",
+    logoPath: "/images/hyundai_circle.png",
     title: "Digital Transformation Intern",
     date: "May 2024 - September 2024",
     responsibilities: [
@@ -171,8 +171,8 @@ const expCards = [
   },
   {
     review: "Technologies used: Google Analytics, Facebook Ads Manager, Microsoft Power BI, Jupyter Notebook, Python",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    imgPath: "/images/EAST.png",
+    logoPath: "/images/EAST_Logo.png",
     title: "Data and Media Intern",
     date: "February 2022 - July 2022",
     responsibilities: [

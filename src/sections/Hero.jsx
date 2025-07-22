@@ -60,7 +60,7 @@ const Hero = () => {
                     text="Learn more"/>
                 </header>
 
-                {/*RIGHT: 3D MODELHeroExperience.jsx */}
+                {/*RIGHT: 3D Model HeroExperience.jsx */}
                 <figure>
                     <div className='hero-3d-layout'>
                         <HeroExperience />
