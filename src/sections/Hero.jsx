@@ -48,10 +48,10 @@ const Hero = () => {
                             </span>
                             </h1>
                         <h1>Developing Real Projects</h1>
-                        <h1>One Cloud At A Time</h1>
+                        {/* <h1>One Cloud At A Time</h1> */}
                     </div>
                     <p className='text-white-50 mt-2 md:text-xl relative z-10'>
-                        Hi, I'm Yin Yu, a final-year student based in Singapore with a passion for code and learning.
+                        Hi, I'm Yin Yu, a final-year student based in <br /> Singapore with a passion for code and learning.
                         {/* <br />I have interest in AI/ML, web development, cloud technologies and design. */}
                     </p>
                     <Button 

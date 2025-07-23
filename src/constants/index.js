@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Personal",
+    link: "#personal",
   },
 ];
 
@@ -147,8 +147,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Technologies used: Tensorflow, Keras, Jenkins, Robot Framework, AWS, NAS, Bitbucket, Github, Bash, Python.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/Razer.png",
+    logoPath: "/images/Razer_logo.png",
     title: "Software Engineer (Automation QA) Intern",
     date: "March 2025 - August 2025",
     responsibilities: [
@@ -160,7 +160,7 @@ const expCards = [
   {
     review: "Technologies used: DBeaver, PTC ThingWorx, Figma, Jira, OutSystems, PostgreSQL, Python, JavaScript, Excel",
     imgPath: "/images/HMGICS.jpg",
-    logoPath: "/images/hyundai_circle.png",
+    logoPath: "/images/hyundai.png",
     title: "Digital Transformation Intern",
     date: "May 2024 - September 2024",
     responsibilities: [
@@ -198,48 +198,48 @@ const expLogos = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+const personal = [
+    {
+    name: "[ Research & Dev ] FYP",
+    mentions: "August 2025 -  Present",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "[ Final Year Project ] Robot Manipulation using Advanced Deep Learning Technique. The project involves enhancing the robotic system's ability to perceive new environment and perform actions to achieve specific tasks. Technologies include Linux/ ROS and deep learning frameworks.",
+    imgPath: "/images/astar.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "[ Research & Dev ] Lab2Life",
+    mentions: "January 2025 -  Present",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "As a team, we pitched for Garage@EEE's innovator project with a figma prototype and attained fundings up to $2500. The end product would be an (Android) app guiding users through capturing images indoors and displaying best location matches.",
+    imgPath: "/images/garage_eee_logo.jpg",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "[ Research ] RAP",
+    mentions: "February 2024",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "In a Research Apprenticeship Program, my partner and I attained first runner-up. We looked into RFID (Radio-Frequency Identification) and their security, presenting our findings to a board of professors and researchers.",
+    imgPath: "/images/NTU.jpg",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "[ Web Dev ] Garage@EEE",
+    mentions: "October 2024 - June 2025",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "I developed a new ' Tinkering Projects ' page for Garage@EEE's official webpage, integrating the backend through Google Appscripts and contributed to Navbar dropdown functionality and ' Tinkering ' section within the Homepage.",
+    imgPath: "/images/garage_eee_logo.jpg",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "[ Sports & Performing Arts ]",
+    mentions: "2016 - Present",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "I was part of Chinese Orchestra & achieved distinction for SYF 2017 & SYF 2019. Being part of NTU's HOCC (Hall Olympiad Closing Ceremony) dance competition, we emerged first among 23 halls! I also took part in sports - VJc's female basketball, recreational volleyball, bouldering & archery.",
+    imgPath: "/images/syf.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "[ Interests, Hall, Faculty ]",
+    mentions: "2022 - 2024",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Apart from being the main programmer for my hall's Freshman Orientation Program for 2 years and being part of the creatives team (BnM) for a faculty event, I am a casual Valo/ Osu gamer who loves to sketch from time to time! After joining hall dance, I got into casual dance as well!",
+    imgPath: "/images/strawberry.jpg",
   },
 ];
 
@@ -269,7 +269,7 @@ export {
   counterItems,
   expCards,
   expLogos,
-  testimonials,
+  personal,
   socialImgs,
   techStackIcons,
   techStackImgs,

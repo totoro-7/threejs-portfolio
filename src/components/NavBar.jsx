@@ -19,6 +19,7 @@ const NavBar = () => {
     return(
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
             <div className="inner">
+                {/* <img className="timeline-logo flex flex-col justify-center items-center mt-10" src="/images/logo.png" /> */}
                 <a className="logo" href="#hero">
                     YinYu | Information Engineering
                 </a>
