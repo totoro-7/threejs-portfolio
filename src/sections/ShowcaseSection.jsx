@@ -47,13 +47,13 @@ const ShowcaseSection = () => {
                     {/* LEFT */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde" />
+                            <img src="/images/razer_proj.png" alt="Computer Vision" />
                         </div>
                         <div className="text-content">
-                        <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App - Ryde</h2>
+                        <h2>Computer Vision - Image and Video Recognition.</h2>
 
                         <p className="text-white-50 md:text-xl">
-                            An app built with React Native, Expo & TailwindCSS for a fast, user-friendly experience.
+                            An automation pipeline built to process images and videos for classification using deep learning techniques.
                         </p>
                     </div>
                     </div>
@@ -62,17 +62,17 @@ const ShowcaseSection = () => {
                     {/* RIGHT */}
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
-                            <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Library Management Platform" />
+                            <div className="image-wrapper bg-[#284D8A]">
+                                <img src="/images/tinkering.png" alt="Garage@EEE - Tinkering Projects" />
                             </div>
-                            <h2>Library Management Plaform</h2>
+                            <h2>Garage@EEE Website - Tinkering Projects Page</h2>
                         </div>
                         
                         <div className="project" ref={project3Ref}>
-                            <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/project3.png" alt="YC Directory" />
+                            <div className="image-wrapper bg-[#E7B080]">
+                                <img src="/images/lab2life.png" alt="Lab2life" />
                             </div>
-                            <h2>YC Directory - A Startup Showcase App</h2>
+                            <h2>Lab2life - An Indoor Navigation App Prototype</h2>
                         </div>
                     </div>
 

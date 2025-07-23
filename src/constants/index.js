@@ -244,17 +244,17 @@ const personal = [
 ];
 
 const socialImgs = [
+  // {
+  //   name: "insta",
+  //   imgPath: "/images/insta.png",
+  // },
+  // {
+  //   name: "fb",
+  //   imgPath: "/images/fb.png",
+  // },
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "gmail",
+    imgPath: "/images/inbox.png",
   },
   {
     name: "linkedin",
