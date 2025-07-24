@@ -240,7 +240,7 @@ const personal = [
   // },
   {
     name: "Interests",
-    mentions: "2022 - 2024",
+    mentions: "",
     review:
       "I am into FPS games like Valorant, and occasionally osu! I try to learn new hands-on skills, such as piano, painting and sketching whenever I can. Currently I am getting into running; and maintaining my streak in Strava.",
     imgPath: "/images/valo-neon.png",
