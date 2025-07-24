@@ -30,6 +30,7 @@ const Hero = () => {
             <div className="hero-layout">
                 {/*LEFT: HERO CONTENT */}
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+                  <div className="flex flex-col gap-7">
                     <div className="hero-text">
                         <h1>Learning about
                             <span className="slide">
@@ -58,6 +59,7 @@ const Hero = () => {
                     className="min-w-fit px-6 py-3 md:w-80 md:h-16"
                     id="button"
                     text="Learn more"/>
+                    </div>
                 </header>
 
                 {/*RIGHT: 3D Model HeroExperience.jsx */}
