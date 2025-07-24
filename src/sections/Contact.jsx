@@ -98,7 +98,7 @@ const Contact = () => {
                                     />
                                 </div>
 
-                                <button type="submit" disabled={loading}>
+                                <button min-w-fit px-6 py-3 md:w-80 md:h-16 type="submit" disabled={loading}>
                                     <div className="cta-button group">
                                     <div className="bg-circle" />
                                         <p className="text">{loading ? 'Sending...' : 'Send Message'}</p>
