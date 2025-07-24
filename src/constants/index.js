@@ -211,7 +211,7 @@ const expCards = [
 
 const personal = [
     {
-    name: "[ Research & Dev ] FYP",
+    name: "Research & Dev | FYP",
     mentions: "August 2025 -  Present",
     review:
       "Final Year Project | Robot Manipulation using Advanced Deep Learning Technique. The project involves enhancing the robotic system's ability to perceive new environment and perform actions to achieve specific tasks. Technologies include Linux/ ROS and deep learning frameworks.",
