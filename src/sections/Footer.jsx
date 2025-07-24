@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-container">
                 <div className="flex flex-col justify-center md:items-start items-center">
-                    <a href="/">Visit my blog</a>
+                    <a>work-in-progress</a>
                 </div>
                 <div className="socials">
                     {socialImgs.map((img) => (
@@ -16,8 +16,8 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col justify-center">
-                    <p className="text-center md:text-end">
-                        {new Date().getFullYear} YinYu | Developer. All Rights Reserved
+                    <p className="text-center md:text-end cursor-text">
+                        {new Date().getFullYear()} Yin Yu | Developer. All Rights Reserved
                     </p>
                 </div>
 

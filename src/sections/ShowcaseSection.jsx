@@ -25,7 +25,7 @@ const ShowcaseSection = () => {
                 y: 0,
                 opacity: 1,
                 duration: 1,
-                delay: 0.1 * (index + 1),
+                delay: 0.05 * (index + 1),
                 scrollTrigger: {
                     trigger: card,
                     start: 'top bottom-=100'
@@ -50,10 +50,10 @@ const ShowcaseSection = () => {
                             <img src="/images/razer_proj.png" alt="Computer Vision" />
                         </div>
                         <div className="text-content">
-                        <h2>Computer Vision - Image and Video Recognition.</h2>
+                        <h2>Razer - Computer Vision</h2>
 
                         <p className="text-white-50 md:text-xl">
-                            An automation pipeline built to process images and videos for classification using deep learning techniques.
+                            An automation pipeline built within Jenkins to process images and videos for classification using deep learning techniques.
                         </p>
                     </div>
                     </div>
@@ -69,10 +69,10 @@ const ShowcaseSection = () => {
                         </div>
                         
                         <div className="project" ref={project3Ref}>
-                            <div className="image-wrapper bg-[#E7B080]">
-                                <img src="/images/lab2life.png" alt="Lab2life" />
+                            <div className="image-wrapper bg-[#00287A]">
+                                <img src="/images/HMGICS.png" alt="hmgics" />
                             </div>
-                            <h2>Lab2life - An Indoor Navigation App Prototype</h2>
+                            <h2>HMGICS - Issues Reporting System</h2>
                         </div>
                     </div>
 

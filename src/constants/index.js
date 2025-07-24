@@ -72,19 +72,30 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/ai.png",
+    title: "Artificial Intelligence & Machine Learning",
+    desc: [
+      "TUM - Introduction to Deep Learning",
+      "NTU - Introduction to Data Science and Artificial Intelligence",
+      "Freecodecamp - Machine Learning with Python.",
+    ],
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/webdevv.png",
+    title: "Web Development",
+    desc: [
+      "Youtube - 3D Web Developer Portfolio with React, Three JS & GSAP | JSM",
+      "Youtube - HTML & CSS Full Course - Beginner to Pro | SuperSimpleDev",
+      "Udemy - React JS For Beginners",
+    ],
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/network.png",
+    title: "Network & Cyber Security",
+    desc: [
+      "TUM - Network Security",
+      "NTU - Computer Communications",
+    ],
   },
 ];
 
@@ -183,20 +194,20 @@ const expCards = [
   },
 ];
 
-const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
-  },
-];
+// const expLogos = [
+//   {
+//     name: "logo1",
+//     imgPath: "/images/logo1.png",
+//   },
+//   {
+//     name: "logo2",
+//     imgPath: "/images/logo2.png",
+//   },
+//   {
+//     name: "logo3",
+//     imgPath: "/images/logo3.png",
+//   },
+// ];
 
 const personal = [
     {
@@ -220,12 +231,19 @@ const personal = [
       "In a Research Apprenticeship Program, my partner and I attained first runner-up. We looked into RFID (Radio-Frequency Identification) and their security, presenting our findings to a board of professors and researchers.",
     imgPath: "/images/NTU.jpg",
   },
+  // {
+  //   name: "[ Web Dev ] Garage@EEE",
+  //   mentions: "October 2024 - June 2025",
+  //   review:
+  //     "I developed a new ' Tinkering Projects ' page for Garage@EEE's official webpage, integrating the backend through Google Appscripts and contributed to Navbar dropdown functionality and ' Tinkering ' section within the Homepage.",
+  //   imgPath: "/images/garage_eee_logo.jpg",
+  // },
   {
-    name: "[ Web Dev ] Garage@EEE",
-    mentions: "October 2024 - June 2025",
+    name: "[ Interests ]",
+    mentions: "2022 - 2024",
     review:
-      "I developed a new ' Tinkering Projects ' page for Garage@EEE's official webpage, integrating the backend through Google Appscripts and contributed to Navbar dropdown functionality and ' Tinkering ' section within the Homepage.",
-    imgPath: "/images/garage_eee_logo.jpg",
+      "I am into FPS games like Valorant, and occasionally osu! I try to learn new hands-on skills, such as piano, painting and sketching whenever I can. Currently I am getting into running; and maintaining my streak in Strava.",
+    imgPath: "/images/valo-neon.png",
   },
   {
     name: "[ Sports & Performing Arts ]",
@@ -235,10 +253,10 @@ const personal = [
     imgPath: "/images/syf.png",
   },
   {
-    name: "[ Interests, Hall, Faculty ]",
+    name: "[ Hall & Faculty ]",
     mentions: "2022 - 2024",
     review:
-      "Apart from being the main programmer for my hall's Freshman Orientation Program for 2 years and being part of the creatives team (BnM) for a faculty event, I am a casual Valo/ Osu gamer who loves to sketch from time to time! After joining hall dance, I got into casual dance as well!",
+      "My biggest takeaway from hall was being part of Strawberry Stretch, which got me into dance! I was also the main programmer for my hall's Freshman Orientation Program for 2 years, and part of the creatives (Branding & Marketing - BnM) team for a faculty event.",
     imgPath: "/images/strawberry.jpg",
   },
 ];
@@ -252,13 +270,14 @@ const socialImgs = [
   //   name: "fb",
   //   imgPath: "/images/fb.png",
   // },
-  {
-    name: "gmail",
-    imgPath: "/images/inbox.png",
-  },
+  // {
+  //   name: "gmail",
+  //   imgPath: "/images/inbox.png",
+  // },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url:"https://www.linkedin.com/in/yin-yu-tan-a1034a14b",
   },
 ];
 
@@ -268,7 +287,7 @@ export {
   logoIconsList,
   counterItems,
   expCards,
-  expLogos,
+  // expLogos,
   personal,
   socialImgs,
   techStackIcons,
