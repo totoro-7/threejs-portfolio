@@ -214,18 +214,18 @@ const personal = [
     name: "[ Research & Dev ] FYP",
     mentions: "August 2025 -  Present",
     review:
-      "[ Final Year Project ] Robot Manipulation using Advanced Deep Learning Technique. The project involves enhancing the robotic system's ability to perceive new environment and perform actions to achieve specific tasks. Technologies include Linux/ ROS and deep learning frameworks.",
+      "Final Year Project | Robot Manipulation using Advanced Deep Learning Technique. The project involves enhancing the robotic system's ability to perceive new environment and perform actions to achieve specific tasks. Technologies include Linux/ ROS and deep learning frameworks.",
     imgPath: "/images/astar.png",
   },
   {
-    name: "[ Research & Dev ] Lab2Life",
+    name: "Research & Dev | Lab2Life",
     mentions: "January 2025 -  Present",
     review:
       "As a team, we pitched for Garage@EEE's innovator project with a figma prototype and attained fundings up to $2500. The end product would be an (Android) app guiding users through capturing images indoors and displaying best location matches.",
     imgPath: "/images/garage_eee_logo.jpg",
   },
   {
-    name: "[ Research ] RAP",
+    name: "Research | RAP",
     mentions: "February 2024",
     review:
       "In a Research Apprenticeship Program, my partner and I attained first runner-up. We looked into RFID (Radio-Frequency Identification) and their security, presenting our findings to a board of professors and researchers.",
@@ -239,21 +239,21 @@ const personal = [
   //   imgPath: "/images/garage_eee_logo.jpg",
   // },
   {
-    name: "[ Interests ]",
+    name: "Interests",
     mentions: "2022 - 2024",
     review:
       "I am into FPS games like Valorant, and occasionally osu! I try to learn new hands-on skills, such as piano, painting and sketching whenever I can. Currently I am getting into running; and maintaining my streak in Strava.",
     imgPath: "/images/valo-neon.png",
   },
   {
-    name: "[ Sports & Performing Arts ]",
+    name: "Sports & Performing Arts",
     mentions: "2016 - Present",
     review:
       "I was part of Chinese Orchestra & achieved distinction for SYF 2017 & SYF 2019. Being part of NTU's HOCC (Hall Olympiad Closing Ceremony) dance competition, we emerged first among 23 halls! I also took part in sports - VJc's female basketball, recreational volleyball, bouldering & archery.",
     imgPath: "/images/syf.png",
   },
   {
-    name: "[ Hall & Faculty ]",
+    name: "Hall & Faculty",
     mentions: "2022 - 2024",
     review:
       "My biggest takeaway from hall was being part of Strawberry Stretch, which got me into dance! I was also the main programmer for my hall's Freshman Orientation Program for 2 years, and part of the creatives (Branding & Marketing - BnM) team for a faculty event.",
