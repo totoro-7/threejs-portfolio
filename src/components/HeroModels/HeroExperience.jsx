@@ -14,7 +14,6 @@ const HeroExperience = () => {
 
         <OrbitControls 
             enablePan={false}
-{/*             enableZoom={!isTablet} */}
             enableZoom={false}
             maxDistance={20}
             minDistance={5}
