@@ -94,6 +94,7 @@ const abilities = [
     title: "Network & Cyber Security",
     desc: [
       "TUM - Network Security",
+      "TUM - Programmable Communication Networks",
       "NTU - Computer Communications",
     ],
   },
