@@ -32,7 +32,7 @@ const Hero = () => {
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                   <div className="flex flex-col gap-7">
                     <div className="hero-text">
-                        <h1>Learning
+                        {/* <h1>Learning
                             <span className="slide">
                                 <span className="wrapper">
                                 {words.map((word) => (                                
@@ -47,12 +47,14 @@ const Hero = () => {
                                 ))}
                                 </span>
                             </span>
-                            </h1>
-                        <h1>Developing Real Projects</h1>
+                        </h1> */}
+                        {/* <h1>Developing Real Projects</h1> */}
                         {/* <h1>One Cloud At A Time</h1> */}
+                        <h1>Hallo.</h1>
+                        <h1>I'm Yin Yu ( ☞•́⍛•̀)╭☞</h1>
                     </div>
                     <p className='text-white-50 mt-2 md:text-xl relative z-10'>
-                        Hi, I'm Yin Yu, a final-year student based in <br /> Singapore with a passion for code and learning.
+                        A final-year student based in <br /> Singapore with a passion for code and learning.
                         {/* <br />I have interest in AI/ML, web development, cloud technologies and design. */}
                     </p>
                     <Button 
