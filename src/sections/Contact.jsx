@@ -3,6 +3,7 @@ import { useRef } from "react";
 import ContactExperience from "../components/Models/ContactExperience";
 import TitleHeader from "../components/TitleHeader"
 import emailjs from '@emailjs/browser'
+import { fill } from "three/src/extras/TextureUtils.js";
 
 const Contact = () => {
     const formRef = useRef(null)
@@ -114,7 +115,8 @@ const Contact = () => {
                     {/* 3js Design for Right Side */}
                     <div className="xl:col-span-7 min-h-96">
                         <div className="w-full h-full bg-[#8475a1] hover:cursor-grab rounded-3xl overflow-hidden">
-                            <ContactExperience />
+                            {/* <ContactExperience /> */}
+                            <img src="/videos/message-video.gif" alt="loading" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                         </div>
                     </div>
 

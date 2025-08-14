@@ -27,7 +27,7 @@ const TechStack = () => {
                 />
 
             <div className="tech-grid">
-                {techStackIcons.map((icon)=> (
+                {/* {techStackIcons.map((icon)=> (
                     <div key= {icon.name} className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg">
                         <div className="tech-card-animated-bg"/>
                         <div className="tech-card-content">
@@ -40,22 +40,22 @@ const TechStack = () => {
                             </div>
                         </div>
                     </div>
-                ))}
+                ))} */}
 
                 {/* For 2D images */}
-                {/* {techStackImgs.map((icon => (
+                {techStackImgs.map((icon => (
                     <div key={icon.name} className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg">
                         <div className="tech-card-animated-bg"/>
                             <div className="tech-card-content">
                                 <div className="tech-icon-wrapper">
-                                    <img src={icon.imgPath} />
+                                    <img draggable="false" src={icon.imgPath} />
                                 </div>
                                 <div className="padding-x w-full">
                                 <p>{icon.name}</p>
                                 </div>
                             </div>
                     </div>
-                )))} */}
+                )))}
 
             </div>
             </div>
