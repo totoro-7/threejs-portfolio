@@ -59,7 +59,7 @@ const Contact = () => {
                     {/* Contact Form for Left Side */}
                     <div className="xl:col-span-5">
                         <div className="flex-center card-border rounded-xl p-10">
-                            <form onSubmit={handleSubmit} className="w-full flex flex-col gap-7" ref={formRef}>
+                            <form onSubmit={handleSubmit} className="contact-form w-full flex flex-col gap-7" ref={formRef}>
                                 <div>
                                     <label htmlFor="name">Name</label>
                                     <input

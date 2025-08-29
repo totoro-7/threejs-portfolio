@@ -278,7 +278,7 @@ section {
     @apply flex justify-center items-center w-52 h-60 relative;
   }
 
-  form {
+  /* form {
     label {
       @apply block text-white-50 mb-2;
     }
@@ -295,7 +295,40 @@ section {
         @apply inline-block;
       }
     }
+  } */
+
+  /* contact form styling */
+  form.contact-form label {
+    @apply block text-white-50 mb-2;
   }
+
+  form.contact-form input,
+  form.contact-form textarea {
+    @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-blue-100 rounded-md;
+  }
+
+  form.contact-form a {
+    @apply w-full py-4 bg-white text-black font-semibold rounded-md flex justify-center items-center gap-2;
+  }
+
+  form.contact-form a img {
+    @apply inline-block;
+  }
+
+  .chatbot-body::-webkit-scrollbar {
+    width:6px;
+  }
+
+  .chatbot-body::-webkit-scrollbar-track,
+  .chatbot-body::-webkit-scrollbar-thumb {
+    background: #DDD3F9 transparent
+  }
+
+  .chatbot-body:hover::-webkit-scrollbar-thumb {
+    background: rgba(107, 114, 128, 0.5); /*show on hover (gray-500 w/ 50% opacity) */
+    border-radius: 10px; /*fully rounded */
+  }
+
 
   .footer {
     @apply my-10 md:mt-20 mt-10 text-white-50 px-5 md:px-20 xl:px-20 flex items-center justify-center;
