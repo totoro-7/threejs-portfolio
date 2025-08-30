@@ -9,11 +9,13 @@ import Personal from "./sections/Personal.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
 import Chatbot from "./sections/Chatbot.jsx";
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
     return (
     <>
         <NavBar />
+        <Analytics />
         <Hero />
         <ShowcaseSection />
         {/* <LogoSection /> */}
