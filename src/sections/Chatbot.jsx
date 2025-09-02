@@ -62,7 +62,7 @@ const Chatbot = () => {
 
     return (
         <div id="chatbot" className="fixed bottom-20 right-6 z-[2600] w-[min(92vw,384px)] max-h-[75vh] bg-white rounded-lg shadow-2xl flex flex-col overflow-hidden">
-            <button onClick={() => setShowChatbot(prev => !prev)} className="fixed bottom-4 right-6 text-white p-4 rounded-full border border-grey-300 bg-black hover:bg-blue-100">
+            <button onClick={() => setShowChatbot(prev => !prev)} className="fixed w-16 bottom-4 right-6 text-white p-4 rounded-full border border-grey-300 bg-black hover:bg-blue-100">
                 {showChatbot ? " ✖ " : "💬"}
             </button>
             <div className={`chatbot-popup bg-white-50 text-black-50 rounded-lg flex flex-col overflow-hidden ${showChatbot ? "block" : "hidden"}`}>
